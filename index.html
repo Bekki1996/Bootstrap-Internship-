@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      .border {
+        border-radius: 0;
+      }
+      img {
+        margin-left: -15px;
+        width: 700px;
+        height: 25em;
+        border-radius: 10px;
+      }
+      .cardTop {
+        margin-left: 200px;
+      }
+      .topSpan {
+        margin-left: 170px;
+      }
+      .longCol {
+        margin-top: 1em;
+        padding: 1em;
+        background-color: gray;
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .Maincard {
+        display: flex;
+        justify-content: space-between;
+      }
+      .cards {
+        margin-top: 10px;
+        height: 20em;
+        width: 27em;
+      }
+.card-footer{
+    border-top: 1px solid;
+}
+    </style>
+  </head>
+  <body>
+    <!--Navbar start-->
+    <nav class="navbar navbar-inverse border">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Mastertech</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                >About<span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Teams Menu-1</a></li>
+                <li><a href="#">Teams Menu-2</a></li>
+                <li><a href="#">Teams Menu-3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Navbar finish-->
+
+    <!--Second Part Image and Text starts-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="img.jpeg" alt="" />
+        </div>
+        <div class="col-sm-4 topSpan">
+          <h2>
+            Business Name or <br />
+            Tagline
+          </h2>
+          <p style="text-align: start">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic impedit
+            corrupti assumenda culpa quam mollitia earum iste! Tenetur error
+            nostrum a velit culpa minus quasi! expedita repellat cumque labore
+            quisquam tempore iure officiis ex culpa quam mollitia earum iste!
+            Tenetur error nostrum a velit culpa minus quasi!<br />
+            sint saepe aliquam, inventore beatae molestiae <br />
+            culpa quam mollitia earum iste! Tenetur error nostrum a velit culpa
+            minus quasi!
+          </p>
+          <button type="button" class="btn btn-primary">Call to Action</button>
+        </div>
+      </div>
+      <!--Second Part Image and Text Finished-->
+
+        <!--Third Part Long col with a text started-->
+      <div class="row">
+        <div class="col-12 longCol">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
+          dignissimos!
+        </div>
+      </div>
+         <!--Third Part Long col with a text Finished-->
+
+
+               <!--Final Part Cards  with a text and button started-->
+      <div class="row Maincard">
+        <div
+          class="col-md-4 cards"
+          style="border: 1px solid gray; border-radius: 5px"
+        >
+          <h2>Card One</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt quos
+            id commodi libero sint accusamus hic, nostrum repudiandae quidem
+            doloremque assumenda harum veniam similique distinctio voluptate
+            exercitationem quod dolorum reiciendis velit. Cupiditate aperiam
+            quae enim ab sapiente, vel id hic.
+          </p>
+          <div class="card-footer">
+            <button class="btn btn-primary" style="margin-top: 20px;">More Info</button>
+          </div>
+        </div>
+        <div
+          class="col-md-4 cards"
+          style="border: 1px solid gray; border-radius: 5px"
+        >
+          <h2>Card Two</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt quos
+            id commodi libero sint accusamus hic, nostrum repudiandae quidem
+            doloremque assumenda harum veniam similique distinctio voluptate
+            exercitationem quod dolorum reiciendis velit. Cupiditate aperiam
+            quae enim ab sapiente, vel id hic.
+          </p>
+          <div class="card-footer">
+            <button class="btn btn-primary" style="margin-top: 20px;">More Info</button>
+          </div>
+        </div>
+        <div
+          class="col-md-4 cards"
+          style="border: 1px solid gray; border-radius: 5px"
+        >
+          <h2>Card Three</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt quos
+            id commodi libero sint accusamus hic, nostrum repudiandae quidem
+            doloremque assumenda harum veniam similique distinctio voluptate
+            exercitationem quod dolorum reiciendis velit. Cupiditate aperiam
+            quae enim ab sapiente, vel id hic.
+          </p>
+          <div class="card-footer">
+            <button class="btn btn-primary" style="margin-top: 20px;">More Info</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
